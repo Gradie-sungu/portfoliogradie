@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gdsung Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Cursor personnalisé -->
+    <div class="cursor"></div>
+    
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">Portfolio<span>.</span></a>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Accueil</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#testimonials">Témoignages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h4>Bonjour, je suis</h4>
+                <h1>Gradie <span>sungu</span></h1>
+                <h3>Développeur Fullstack & Designer UI/UX</h3>
+                <div class="hero-btns">
+                    <a href="#portfolio" class="btn">Voir mon travail</a>
+                    <a href="#contact" class="btn secondary">Me contacter</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/gradie-sungu-8164b0321/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Gradie-sungu"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                    <a href="#"><i class="fab fa-behance"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="image/IMG-20250613-WA0014.jpg" alt="gradie sungu">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>À <span>propos</span> de moi</h2>
+                <p>Découvrez qui je suis et ce que je fais</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="image/IMG-20250613-WA0014.jpg" alt="Gradie sungu">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Je suis un développeur et data analyste passionné basé à lubumbashi</h3>
+                    <p>je me spécialise en développement web, data analyse et cybersécurité. Passionné par les nouvelles technologies, je cherche à concilier théorie académique et pratique professionnelle à travers des projets concrets..</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span>Nom :</span>
+                            <p>Gradie sungu</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Email :</span>
+                            <p>sungugradie148@gmail.com</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Expérience :</span>
+                            <p>2+ années</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Téléphone :</span>
+                            <p>+243 89 16 76 165</p>
+                        </div>
+                    </div>
+                    <div class="about-btns">
+                        <a href="#" class="btn">Télécharger CV</a>
+                        <a href="#" class="btn secondary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>HTML/CSS</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>JavaScript</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>React</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Node.js</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>UI/UX Design</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Mes <span>services</span></h2>
+                <p>Ce que je propose à mes clients</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Développement Web</h3>
+                    <p>Création de sites web modernes et responsives avec les dernières technologies front-end et back-end.</p>
+                    <a href="#" class="read-more">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Design UI/UX</h3>
+                    <p>Conception d'interfaces intuitives et d'expériences utilisateur optimisées pour vos applications.</p>
+                    <a href="#" class="read-more">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Développement Mobile</h3>
+                    <p>Développement d'applications mobiles performantes pour iOS et Android, natives ou cross-platform.</p>
+                    <a href="#" class="read-more">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO</h3>
+                    <p>Optimisation pour les moteurs de recherche pour améliorer votre visibilité et votre classement.</p>
+                    <a href="#" class="read-more">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Marketing Digital</h3>
+                    <p>Stratégies digitales sur mesure pour accroître votre présence en ligne et générer des leads.</p>
+                    <a href="#" class="read-more">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Hébergement</h3>
+                    <p>Solutions d'hébergement web sécurisées et performantes pour garantir la disponibilité de vos services.</p>
+                    <a href="#" class="read-more">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Mon <span>portfolio</span></h2>
+                <p>Une sélection de mes projets récents</p>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">Mobile</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Projet 1">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Site E-commerce</h3>
+                                <p>Développement Web</p>
+                                <a href="#" class="view-project">Voir le projet</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Projet 2">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Application Mobile</h3>
+                                <p>Développement Mobile</p>
+                                <a href="#" class="view-project">Voir le projet</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" alt="Projet 3">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Design d'interface</h3>
+                                <p>UI/UX Design</p>
+                                <a href="#" class="view-project">Voir le projet</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80" alt="Projet 4">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Site Vitrine</h3>
+                                <p>Développement Web</p>
+                                <a href="#" class="view-project">Voir le projet</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Projet 5">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Application SaaS</h3>
+                                <p>Développement Mobile</p>
+                                <a href="#" class="view-project">Voir le projet</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1541462608143-67571c6738dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Projet 6">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Identité Visuelle</h3>
+                                <p>Branding</p>
+                                <a href="#" class="view-project">Voir le projet</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-more">
+                <a href="#" class="btn">Voir plus de projets</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Témoignages <span>clients</span></h2>
+                <p>Ce que disent mes clients à mon sujet</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="client-info">
+                        <div class="client-image">
+                            <img src="image/IMG-20250613-WA0007.jpg" alt="Client 1">
+                        </div>
+                        <div class="client-details">
+                            <h4>Lubila Ange</h4>
+                            <span>DATA Scientist</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-text">
+                        <p>"Travailler avec Gradie sur des projets comme Usafico et Pedago a été une expérience extrêmement stimulante. Gradie allie une curiosité analytique à une rigueur technique rare, ce qui a grandement contribué à la qualité de nos modèles de données et à l’impact de nos solutions.
+Sa capacité à traduire des besoins métiers en problématiques data (ML, visualisation, ETL) a été précieuse, tout comme son approche collaborative. Que ce soit pour nettoyer des datasets complexes, optimiser des algorithmes ou co-présenter des résultats aux parties prenantes, [Ton Prénom] est un·e partenaire fiable et innovant·e.
+Une personne que je recommande vivement pour tout projet où la data fait la différence !"</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="client-info">
+                        <div class="client-image">
+                            <img src="image/IMG-20250611-WA0027.jpg" alt="Client 2">
+                        </div>
+                        <div class="client-details">
+                            <h4>Ariel embeya</h4>
+                            <span>Fullstack web Développer</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-text">
+                        <p>"Collaborer avec Gradie sur des projets Fullstack a été une révélation. Son expertise à la fois en frontend (React/Next.js) et backend (Node.js/Python) lui permet de proposer des architectures robustes et innovantes. Sa capacité à debugger des problèmes complexes et à optimiser les performances est impressionnante.
+En plus de ses compétences techniques, Gradie est un excellent communicant, toujours à l’écoute des besoins clients. Un·e partenaire idéal·e pour des projets exigeants !."</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="client-info">
+                        <div class="client-image">
+                            <img src="image/IMG-20250611-WA0029.jpg" alt="Client 3">
+                        </div>
+                        <div class="client-details">
+                            <h4>Kitenge Shadrack</h4>
+                            <span>Disinger, CEO tMB</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-text">
+                        <p>"Travailler avec Gradie a été une expérience incroyablement enrichissante, tant sur le plan professionnel que personnel.Gradie allie créativité, rigueur et une grande capacité d’écoute, ce qui rend chaque collaboration fluide et productive.
+Que ce soit sur gomenu, fraude detection ,Gradie a toujours fait preuve d’un professionnalisme exemplaire, tout en apportant une touche humaine et bienveillante à notre équipe. Son sens du détail et sa capacité à résoudre les problèmes font de Gradie une personne indispensable sur n’importe quel projet Je recommande Gradie sans hésitation et serais ravie de retravailler avec lui à l’avenir !."</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Me <span>contacter</span></h2>
+                <p>Travaillons ensemble !</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Téléphone</h4>
+                            <p>+243891676165</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>sungugradie148@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Adresse</h4>
+                            <p>815 av abbe kahozi, Q. makutano, lubumbashi, republique democratique du congo</p>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <h4>Suivez-moi</h4>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                            <a href="#"><i class="fab fa-behance"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form class="messageForm" id="contact_form" onsubmit="sendMail(event)"> 
+                        <div class="form-group">
+                            <input type="text" id="name"placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email"placeholder="Votre email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Votre message" id="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="#" class="logo">Portfolio<span>.</span></a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Liens rapides</h4>
+                    <ul>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Développement Web</a></li>
+                        <li><a href="#">Design UI/UX</a></li>
+                        <li><a href="#">Développement Mobile</a></li>
+                        <li><a href="#">SEO</a></li>
+                        <li><a href="#">Marketing Digital</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Abonnez-vous pour recevoir les dernières actualités</p>
+                    <form>
+                        <input type="email" placeholder="Votre email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Portfolio. Tous droits réservés.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">Conditions d'utilisation</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="script.js"></script>
+</body>
+</html>
